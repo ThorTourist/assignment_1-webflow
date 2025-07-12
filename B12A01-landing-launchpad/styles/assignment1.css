@@ -21,6 +21,8 @@
   
 }
 
+
+
 /* Header div design */
 
 .header-container{
@@ -88,8 +90,8 @@
     background-color: white;
     height: 330px;
     width: 1140px;
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 300px;
+    margin-right: 160px;
     display: flex;
     justify-content: space-between;
 }
@@ -130,14 +132,17 @@
     text-align: center;
     height: 330px;
     width: 1140px;
-    margin-left: 180px;
-    margin-right: 180px;
-    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 160px;
+    margin-top: 10px;
     border-radius: 30px;
-    padding-top: 15px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 100px;
     justify-items: center;
-  
+   
+   
+    /* display: flex; */
+    justify-content: space-between;
 }
 .user-div{
     display: flex;
@@ -145,7 +150,7 @@
     text-align: center;
     align-content: space-around;
     gap: 200px;
-    height: 150px;
+    height: 130px;
     width: 806px;
     /* background-color: aqua; */
 }
@@ -156,7 +161,7 @@
     color: #4E47FF;
 }
 .container-line{
-    font-size: xx-large;
+    font-size: 48px;
     font-weight: bold;
     color: rgb(18, 18, 18);
 
@@ -172,6 +177,70 @@
    
    
 }
-.user-low-line{
+.span{
+    font-size: 22px;
+    display: block;
+    color: rgb(21, 21, 21);
+}
+/* section-focus */
+
+.section-focus{
+     /* background-color: white;
+    height: 1600px;
+    width: 1140px;
+    margin-left: 300px;
+    margin-right: 160px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* text-align: center;
+    display: inline; */ 
+
+    background-color: #dfe2e7;
     text-align: center;
+    height: 330px;
+    width: 1140px;
+    margin-left: 300px;
+    margin-right: 160px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    padding-top: 25px;
+    padding-bottom: 300px;
+    justify-items: center;
+}
+
+
+.footer-button ul {
+    list-style: none;
+    
+    }
+
+.footer-button ul{
+display: flex;
+gap: 20px;
+
+}
+.footer-button button{
+    border: none;
+    font-size: large;
+    background-color:none;
+} 
+
+.footer-div{
+    background-color: #dfe2e7;
+    text-align: center;
+    height: 330px;
+    width: 1140px;
+    margin-left: 300px;
+    margin-right: 160px;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    justify-items: center;
+   
+}
+
+.footer-para{
+    font-size: large;
 }
