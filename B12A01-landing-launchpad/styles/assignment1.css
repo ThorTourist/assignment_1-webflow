@@ -1,12 +1,8 @@
 /* Header CSS */
 
-/* html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  box-sizing: border-box;
-} */
+html, body {
+  background-color: #dff3f5;
+}
 
 .btn-primary{
     color: white;
@@ -31,18 +27,29 @@
 
 
 
-/* Header div design */
 
+
+/* Header div design */
 .header-container{
-    height: 700px;
+    height: 500px;
     background-image: url(../images/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: top middle;
     width: 75%;
-    margin: auto;
+    margin: auto ;
+    
+    background-color: white;
 
 }
-
+/* Hero Container Design */
+.hero-container{
+    background-color: white;
+    height: 330px;
+    width: 75%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
 .header{
     display: flex;
     justify-content:space-between;
@@ -53,7 +60,6 @@
 }
 .headline-div{
     height: 190px;
-    /* width: 600px; */
     width: 75%;
     background-color: #FFFFFF;
     margin: auto;
@@ -88,18 +94,10 @@
     border: none;
 }
 
-/* Hero Container Design */
 
 
-.hero-container{
-    background-color: white;
-    height: 330px;
-    /* width: 1140px; */
-    width: 75%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
+
+
 
 .image-mini{
     border-radius: 40px;
@@ -217,7 +215,6 @@ gap: 20px;
 } 
 
 .footer-div{
-    /* background-color: #dfe2e7; */
     text-align: center;
     height: 100px;
     width: 75%;
