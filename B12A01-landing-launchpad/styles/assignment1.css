@@ -1,5 +1,13 @@
 /* Header CSS */
 
+/* html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+} */
+
 .btn-primary{
     color: white;
     background-color: blueviolet;
@@ -27,31 +35,28 @@
 
 .header-container{
     height: 700px;
-    width: 1440px;
-    /* max-width: 1100px; */
     background-image: url(../images/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: top middle;
-    margin-left: 180px;
-    margin-right: 180px;
-    /* padding: 90px 90px ; */
+    width: 75%;
+    margin: auto;
 
 }
 
 .header{
     display: flex;
     justify-content:space-between;
-    margin-left: 180px;
-    margin-right: 180px;
     height: 151px;
-    width: 1140px;
+    width: 75%;
+    margin: auto;
     padding: 20px;
 }
 .headline-div{
     height: 190px;
-    width: 600px;
+    /* width: 600px; */
+    width: 75%;
     background-color: #FFFFFF;
-    margin: 0 auto;
+    margin: auto;
     align-content: center;
     text-align: center;
    
@@ -89,9 +94,9 @@
 .hero-container{
     background-color: white;
     height: 330px;
-    width: 1140px;
-    margin-left: 300px;
-    margin-right: 160px;
+    /* width: 1140px; */
+    width: 75%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
 }
@@ -131,10 +136,8 @@
     background-color: #dfe2e7;
     text-align: center;
     height: 330px;
-    width: 1140px;
-    margin-left: 300px;
-    margin-right: 160px;
-    margin-top: 10px;
+    width: 75%;
+    margin: 40px auto;
     border-radius: 30px;
     padding-top: 25px;
     padding-bottom: 100px;
@@ -151,8 +154,8 @@
     align-content: space-around;
     gap: 200px;
     height: 130px;
-    width: 806px;
-    /* background-color: aqua; */
+    width: 75%;
+    margin: 40px auto
 }
 
 .user-line{
@@ -185,24 +188,11 @@
 /* section-focus */
 
 .section-focus{
-     /* background-color: white;
-    height: 1600px;
-    width: 1140px;
-    margin-left: 300px;
-    margin-right: 160px;
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* text-align: center;
-    display: inline; */ 
-
     background-color: #dfe2e7;
     text-align: center;
     height: 330px;
-    width: 1140px;
-    margin-left: 300px;
-    margin-right: 160px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    width: 75%;
+    margin: 40px auto;
     border-radius: 30px;
     padding-top: 25px;
     padding-bottom: 300px;
@@ -230,10 +220,8 @@ gap: 20px;
     /* background-color: #dfe2e7; */
     text-align: center;
     height: 100px;
-    width: 1140px;
-    margin-left: 300px;
-    margin-right: 160px;
-    margin-top: 10px;
+    width: 75%;
+    margin: auto;
     margin-bottom: 30px;
     border-radius: 30px;
     padding-top: 25px;
@@ -251,11 +239,9 @@ gap: 20px;
 .form-div{
     background-color: #dfe2e7;
     text-align: left;
-    height: 200px;
-    width: 1140px;
-    margin-left: 300px;
-    margin-right: 160px;
-    margin-top: 10px;
+    height: 250px;
+    width: 75%;
+    margin: auto;
     border-radius: 30px;
     padding-top: 25px;
     padding-bottom: 100px;
@@ -270,11 +256,74 @@ gap: 20px;
     font-size: 5em;
 }
 .form-size {
-    width: 500px;
-    height: 600px;
-    
+    width: 400px;
+   height: 300px;
+    /* background-color: aqua; */
+    font-size: x-large;
+
+}  
+.form-box{
+font-size: large;
+padding: 4px 4px 4px 4px;
+border-radius: 6px;
+border-color: none
+
+}    
+
+/* User Says Div styles  */
+
+.says-container{
+    height: 342px;
+    width: 75%;
+    background-color: #dfe2e7;
+    text-align: center;
+    margin: 40px auto; 
+    border-radius: 30px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    justify-items: center;
+    justify-content: space-between;
 }
 
+.small-says-container{
+    height: 243px;
+    width: 367px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* align-content: space-around; */
+    gap: 200px;
+    /* height: 130px;
+    width: 806px; */
+}
+
+.says-div{
+    height: 43px;
+    width: 318px;
+}
+
+.reviewer{
+    display: flex;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* align-content: center; */
+    align-items: center;
+
+}
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+/* .says-div{
+    height: 243px;
+    width: 367px;
+} */
+.testimonials {
+  padding: 3rem 2rem;
+  text-align: center;
+  display: flex;
+}
 .btn-4{
     height: 39px;
     width: 160px;
